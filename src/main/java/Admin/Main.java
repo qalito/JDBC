@@ -9,7 +9,7 @@ public class Main {
         Boolean menu = true, userMenu = true;
         User currentUser = null;
         while (menu) {
-            System.out.println("Select: login / register / 0 - exit app:");
+            System.out.println("Select: login / register / 0 - exit app :");
             switch (scanner.next()) {
                 case "login":
                     try {
